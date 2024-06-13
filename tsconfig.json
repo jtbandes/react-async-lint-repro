@@ -1,0 +1,8 @@
+{
+  "extends": "@foxglove/tsconfig/base",
+  "include": ["**/*"],
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "lib": ["es2022", "DOM"]
+  }
+}
